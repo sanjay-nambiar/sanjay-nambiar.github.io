@@ -1,1 +1,2 @@
-# Sanjay Nambiar's Game programming portfolio github pages website
+# Sanjay Nambiar
+My game development portfolio website

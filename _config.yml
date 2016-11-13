@@ -1,0 +1,60 @@
+title: "A Game Developer's Diary"
+description: "This is where I write about all my awesome game dev experiments"
+about: "My experiments as a game developer "
+location: "Orlando, Florida"
+email: sanjay.mnambiar@gmail.com
+baseurl: ""
+
+url: "sanjay-nambiar.giyhub.io" # replace by your site's url
+twitter_username: mr_snambiar
+github_username:  sanjay-nambiar
+author: "Sanjay Nambiar"
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# add your disqus to enable comments
+disqus_shortname: sanjay-nambiar
+
+# language settings
+isolang: en
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: "Projects"
+posts_btn: "Posts"
+imprint_btn: "Imprint"
+name_badge: "an article by"
+rss_badge: "Subscribe feed!"
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    tab_width: 4
+
+# third party gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - gemoji
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-gist
+  - gemoji
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md

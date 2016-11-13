@@ -1,65 +1,87 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+layout: default
+---
+<script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
+<div>
+  <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_posts();">{{ site.posts_btn }}</a>
+  <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">{{ site.projects_btn }}</a>
+</div>
+<div id="posts">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+  <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
 
-  <title>A Game Developer&#39;s Diary</title>
-  <meta name="description" content="Sanjay Nambiar">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <p class="my-item">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
+        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+          {{ post.content | strip_html | truncatewords: 20 }}
+      </p>
+    </li>
+    {% endfor %}
+    <li>
+      <p class="my-item">
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
+        <i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}
+    </li>
+  </ul>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">A Game Developer&#39;s Diary</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">Sanjay Nambiar</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/sanjay-nambiar" class="code">View A Game Developer&#39;s Diary on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>
-<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome</h3>
-
-<p>Welcome to the initiation</p>
-
-<h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
-
-<p><a href="mailto:sanjay.mnambiar@gmail.com">sanjay.mnambiar@gmail.com</a></p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-
-      <p><a href="https://github.com/sanjay-nambiar" class="avatar"><img src="https://avatars1.githubusercontent.com/u/693297?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/sanjay-nambiar">sanjay-nambiar</a> on <a href="https://www.github.com">GitHub</a></p>
-
-      </div>
-    </footer>
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/sanjay-nambiar/sanjay-nambiar.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/sanjay-nambiar/sanjay-nambiar.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+</div>
 
-  
-</body>
-</html>
+
+<div id="projects">
+  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
+  <ul>
+    {% for project in site.data.projects %}
+    <li>
+      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+        {{ project.description }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
+  </div>
+</div>
+
+<noscript>
+  <div id="posts-noscript">
+
+    <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
+
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <p class="my-item">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
+          <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </li>
+      {% endfor %}
+      <li>
+        <p class="my-item">
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
+          <span class="my-item-sub"><i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}</span>
+      </li>
+    </ul>
+  </div>
+  <div id="projects-noscript">
+    <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
+    <ul>
+      {% for project in site.data.projects %}
+      <li>
+        <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+          <span class="my-item-sub">
+        {{ project.description }}
+      </span>
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</noscript>

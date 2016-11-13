@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://sanjay-nambiar.github.io/sitemap.xml

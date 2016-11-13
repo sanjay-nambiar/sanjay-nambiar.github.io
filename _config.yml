@@ -11,7 +11,7 @@ github_username:  sanjay-nambiar
 author: "Sanjay Nambiar"
 
 # google analytics tracking code, please change the value
-g_analytics: ""
+g_analytics: "UA-84310090-1"
 
 # add your disqus to enable comments
 disqus_shortname: sanjay-nambiar

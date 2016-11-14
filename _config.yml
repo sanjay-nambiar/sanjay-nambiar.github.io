@@ -7,6 +7,7 @@ baseurl: ""
 
 url: "https://sanjay-nambiar.github.io" # replace by your site's url
 twitter_username: mr_snambiar
+linkedin_profile: "in/sanjaymnambiar"
 github_username:  sanjay-nambiar
 author: "Sanjay Nambiar"
 
@@ -20,6 +21,7 @@ disqus_shortname: sanjay-nambiar
 isolang: en
 close_btn: "Close"
 home_btn: "Home"
+about_btn: "About"
 projects_btn: "Projects"
 posts_btn: "Posts"
 imprint_btn: "Imprint"

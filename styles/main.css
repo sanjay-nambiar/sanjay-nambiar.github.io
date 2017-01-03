@@ -275,3 +275,7 @@ img{
 .headline-container{
     line-height: 80%;
 }
+.social-button-padding{
+    padding-left: 5%;
+    padding-right: 5%;
+}

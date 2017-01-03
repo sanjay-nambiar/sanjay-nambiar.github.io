@@ -26,3 +26,4 @@ var GameDevDiary = function() {
         show_section: show_section
     }
 }();
+

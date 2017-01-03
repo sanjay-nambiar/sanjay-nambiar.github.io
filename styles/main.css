@@ -131,7 +131,7 @@ a{
 }
 .my-name{
     font-family: 'Vast Shadow', cursive;
-    font-size: 45px;
+    font-size: 36px;
     color: black;
 }
 .my-name:hover{
@@ -271,4 +271,7 @@ a{
 }
 img{
     max-width: 100%;
+}
+.headline-container{
+    line-height: 80%;
 }

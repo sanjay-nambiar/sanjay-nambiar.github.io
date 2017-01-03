@@ -162,7 +162,7 @@ a{
     font-family: 'Share Tech Mono', monospace;
     font-size: 15;
     color: #4db6ac;
-    margin-top: 50px;
+    margin-top: 5%;
 }
 .my-footer{
     position:fixed;
@@ -273,9 +273,10 @@ img{
     max-width: 100%;
 }
 .headline-container{
-    line-height: 80%;
+    line-height: 50%;
+    margin: 5%;
 }
-.social-button-padding{
+.button-bounds{
     padding-left: 5%;
     padding-right: 5%;
 }

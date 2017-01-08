@@ -4,6 +4,7 @@ title:  "Viper Engine: That game engine I always wanted to build"
 date:   2016-12-10 19:00:00 -0500
 tags: ['fiea', 'c++', 'engine', 'solo', 'opengl', 'fmod', 'tiled', 'texturepacker']
 author: "Sanjay Nambiar"
+comments: true
 ---
 
 ## Kickstart

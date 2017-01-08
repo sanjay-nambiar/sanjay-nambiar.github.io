@@ -4,6 +4,7 @@ title:  "Rapid Prototype: The Morning After"
 date:   2016-11-16 22:00:00 -0500
 tags: ['fiea', 'rpp', 'unity', 'c#', 'story', 'team']
 author: "Sanjay Nambiar"
+comments: true
 ---
 
 ## The Morning After

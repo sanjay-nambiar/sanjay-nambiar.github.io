@@ -5,7 +5,7 @@ location: "Orlando, Florida"
 email: sanjay.mnambiar@gmail.com
 baseurl: ""
 
-url: "https://sanjay-nambiar.github.io" # replace by your site's url
+url: "https://sanjay-nambiar.github.io"
 twitter_username: mr_snambiar
 linkedin_profile: "in/sanjaymnambiar"
 github_username:  sanjay-nambiar
@@ -15,7 +15,7 @@ author: "Sanjay Nambiar"
 g_analytics: "UA-84310090-1"
 
 # add your disqus to enable comments
-disqus_shortname: sanjay-nambiar
+disqus_shortname: game-developers-diary
 
 # language settings
 isolang: en

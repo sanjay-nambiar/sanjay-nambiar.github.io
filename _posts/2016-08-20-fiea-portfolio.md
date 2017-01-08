@@ -4,6 +4,7 @@ title:  "FIEA Portfolio"
 date:   2016-08-20 11:00:00 -0500
 tags: ['fiea', 'physics', 'sdl', 'c++', 'solo', 'portfolio']
 author: "Sanjay Nambiar"
+comments: true
 ---
 
 ## In search of a master portfolio piece

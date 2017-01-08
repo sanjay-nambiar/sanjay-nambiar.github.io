@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "FIEA Portfolio"
-date:   2016-10-23 05:00:00 -0500
-tags: ['fiea', 'physics', 'sdl', 'c++']
+date:   2016-08-20 11:00:00 -0500
+tags: ['fiea', 'physics', 'sdl', 'c++', 'solo', 'portfolio']
 author: "Sanjay Nambiar"
+comments: true
 ---
 
 ## In search of a master portfolio piece
@@ -17,3 +18,5 @@ The main requirements of the portfolio were:
 3. Code quality and standards will be evaluated
 
 The golden solution, port my 2D Verlet physics simulation in Javascript to C++ using SDL and improve the framework architecture. Also while I'm at it, use C++ 11, since that was the main focus of almost all the recommended reading. The result was an interesting 2 to 3 weeks and an awesome portfolio piece.
+
+The link to source code for this project can be found under Projects section.

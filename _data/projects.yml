@@ -3,4 +3,7 @@
   description: "A simple 2D verlet physics system implemented in C++ using SDL"
 - name: Apple Archer
   link: "https://github.com/sanjay-nambiar/apple-archer"
-  description: "A retro style archer game written for the Motorola 68000 processor. Uses Easy68K emulator to run the program"
+  description: "A retro style archer game written for the Motorola 68000 processor"
+- name: Viper Engine
+  link: "https://github.com/sanjay-nambiar/ViperEngine"
+  description: "An attempt to learn game engine development by building one"

@@ -7,3 +7,6 @@
 - name: Viper Engine
   link: "https://github.com/sanjay-nambiar/ViperEngine"
   description: "An attempt to learn game engine development by building one"
+- name: Ghost Chamber
+  link: "https://github.com/GhostChamber"
+  description: "GhostChamber is a project for creating interactive 3D holograms controlled using Kinect"

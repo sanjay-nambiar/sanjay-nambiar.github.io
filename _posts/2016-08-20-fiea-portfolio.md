@@ -9,6 +9,8 @@ comments: true
 
 ## In search of a master portfolio piece
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wyHwtGQhywU" frameborder="0" allowfullscreen></iframe>
+
 FIEA was the number 1 game development masters program in the world according to Princeton Review 2016. Which means, I had my work cut out and create a portfolio piece which really stands out.
 
 The main requirements of the portfolio were:
@@ -17,6 +19,6 @@ The main requirements of the portfolio were:
 2. Simulation / Games are given higher weightage
 3. Code quality and standards will be evaluated
 
-The golden solution, port my 2D Verlet physics simulation in Javascript to C++ using SDL and improve the framework architecture. Also while I'm at it, use C++ 11, since that was the main focus of almost all the recommended reading. The result was an interesting 2 to 3 weeks and an awesome portfolio piece.
+The best option that came to my mind was to implement a simple 2D physics simulation in C++. I have done a simple verlet integration physics implementation in the past using Javscript and HTML5 and that made it an ideal candidate. The recommended reading from FIEA had C++ books focusing on modern C++ and hence I decided to use some C++ 11 features in the code as well. The end result was an interesting 2 weeks of learning and implementaion with a good portfolio project.
 
 The link to source code for this project can be found under Projects section.

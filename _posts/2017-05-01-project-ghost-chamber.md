@@ -10,7 +10,12 @@ comments: true
 
 ## Project Ghost Chamber
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/swami_worldtraveler/34333290035/in/album-72157681327497290/" title="THE TEAM!, plus SME, &amp; teacher"><img src="https://c1.staticflickr.com/5/4166/34333290035_59bb29de1f_z.jpg" width="560" height="315" alt="THE TEAM!, plus SME, &amp; teacher"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/swami_worldtraveler/34333290035/in/album-72157681327497290/" title="THE TEAM!, plus SME, &amp; teacher">
+	<div class='embed-container'>
+		<img src="https://c1.staticflickr.com/5/4166/34333290035_59bb29de1f_z.jpg" width="560" height="315" alt="THE TEAM!, plus SME, &amp; teacher">
+	</div>
+</a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"/>
 
 This project is one of the most unique projects I worked on while I was at FIEA. This project was done as
 part of a course at FIEA which focuses on Games / interactive simulations outside of entertainment realm.
@@ -33,5 +38,7 @@ it can be used to create client application talking to regular C sockets based s
 had an autodiscovery feature within a LAN.
 
 The final presentation of the project can be viewed here:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MxiuaFEt_Mc?start=5048" frameborder="0" allowfullscreen></iframe>
+<div class='embed-container'>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/MxiuaFEt_Mc?start=5048" frameborder="0" allowfullscreen></iframe>
+</div>
 

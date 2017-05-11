@@ -10,7 +10,9 @@ comments: true
 
 ## The Morning After
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ia-tO6W9E9k" frameborder="0" allowfullscreen></iframe>
+<div class='embed-container'>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ia-tO6W9E9k" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Video Games started in the early days with just pure gameplay experiences with little or no story about the player or the world at all. Over
 the years games have evolved to a point where almost all of them have some sort of a background story about why the player doing what he/she

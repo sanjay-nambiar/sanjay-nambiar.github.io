@@ -10,7 +10,9 @@ comments: true
 
 ## In search of a master portfolio piece
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wyHwtGQhywU" frameborder="0" allowfullscreen></iframe>
+<div class='embed-container'>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wyHwtGQhywU" frameborder="0" allowfullscreen></iframe>
+</div>
 
 FIEA was the number 1 game development masters program in the world according to Princeton Review 2016. Which means, I had my work cut out and create a portfolio piece which really stands out.
 

@@ -10,7 +10,9 @@ comments: true
 
 ## Apple Archer
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rxzyOU_MlyQ" frameborder="0" allowfullscreen></iframe>
+<div class='embed-container'>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/rxzyOU_MlyQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Apple archer is an assembly game created for a course project work. The game is entirely programmed in Motorola 68000 assembly language to run in
 Easy68K emulator. Apart from all the challenges that come with writing a game in assembly, the Easy68K emulator had really slow pixel plotting

@@ -2,7 +2,8 @@
 layout: post
 title:  "Rapid Prototype: Kicking Plushies"
 date:   2016-12-06 22:00:00 -0500
-tags: ['fiea', 'rpp', 'unreal', 'c++', 'technology', vr', 'vive', 'team']
+category: Project
+tags: ['UnrealEngine', 'C++', 'VR', 'Vive', 'Team']
 author: "Sanjay Nambiar"
 comments: true
 ---

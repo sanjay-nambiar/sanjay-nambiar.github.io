@@ -2,7 +2,8 @@
 layout: post
 title:  "Rapid Prototype: The Morning After"
 date:   2016-11-16 22:00:00 -0500
-tags: ['fiea', 'rpp', 'unity', 'c#', 'story', 'team']
+category: Project
+tags: ['Unity3D', 'C#', 'Team']
 author: "Sanjay Nambiar"
 comments: true
 ---

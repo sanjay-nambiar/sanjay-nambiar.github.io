@@ -2,7 +2,8 @@
 layout: post
 title:  "Rapid Prototype: Afterlife"
 date:   2016-10-25 20:00:00 -0500
-tags: ['fiea', 'rpp', 'unity', 'c#', 'mobile', 'ar', 'team']
+category: Project
+tags: ['Unity', 'C#', 'Mobile', 'AR', 'Team']
 author: "Sanjay Nambiar"
 comments: true
 ---

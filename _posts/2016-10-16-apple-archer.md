@@ -2,7 +2,8 @@
 layout: post
 title:  "Assembly Game: Apple Archer"
 date:   2016-10-16 11:00:00 -0500
-tags: ['fiea', 'assembly', '68000', 'solo']
+category: Project
+tags: ['Assembly', '68000', 'Solo']
 author: "Sanjay Nambiar"
 comments: true
 ---

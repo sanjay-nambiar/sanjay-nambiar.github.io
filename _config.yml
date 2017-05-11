@@ -46,16 +46,11 @@ kramdown:
     tab_width: 4
 
 jekyll-archives:
-  enabled: all
-  layouts:
-    year: year-archive
-    month: month-archive
-    day: day-archive
-    tag: tag-archive
+  enabled:
+    - categories
+    - tags
+  layout: 'tag-list'
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
 
@@ -67,6 +62,7 @@ gems:
   - gemoji
 
 whitelist:
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-gist
   - gemoji

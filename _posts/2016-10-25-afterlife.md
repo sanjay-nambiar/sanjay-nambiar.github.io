@@ -3,7 +3,7 @@ layout: post
 title:  "Rapid Prototype: Afterlife"
 date:   2016-10-25 20:00:00 -0500
 category: Project
-tags: ['Unity', 'C#', 'Mobile', 'AR', 'Team']
+tags: ['Unity3D', 'C#', 'Mobile', 'AR', 'Team', 'Vuforia']
 author: "Sanjay Nambiar"
 comments: true
 ---

@@ -45,8 +45,23 @@ kramdown:
   syntax_highlighter_opts:
     tab_width: 4
 
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    tag: tag-archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
 # third party gems
 gems:
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-gist
   - gemoji

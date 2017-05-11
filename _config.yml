@@ -47,7 +47,6 @@ kramdown:
 
 jekyll-archives:
   enabled:
-    - categories
     - tags
   layout: 'tag-list'
   permalinks:

@@ -50,12 +50,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
   
   <ul>
     {% for post in site.posts %}
-    <li>
-
-      {% if forloop.index == 4 %}
-        {% break %}
-      {% endif %}
-    
+    <li>    
       <p class="my-item">
         <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
         <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>

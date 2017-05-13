@@ -1,37 +1,6 @@
 ---
 layout: default
 ---
-
-{% comment %}
-=======================
-The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
-=======================
-{% endcomment %}
-{% assign rawtags = "" %}
-{% for post in site.posts %}
-  {% assign ttags = post.tags | join:'|' | append:'|' %}
-  {% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-
-{% comment %}
-=======================
-The following part removes dulpicated tags and invalid tags like blank tag.
-=======================
-{% endcomment %}
-{% assign tags = "" %}
-{% for tag in rawtags %}
-  {% if tag != "" %}
-    {% if tags == "" %}
-      {% assign tags = tag | split:'|' %}
-    {% endif %}
-    {% unless tags contains tag %}
-      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
-
-
 <script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
 <div>
   <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large button-bounds" onclick="GameDevDiary.show_section('posts');">{{ site.posts_btn }}</a>
@@ -41,39 +10,12 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 
 
 <div id="cool-stuff">
-  <a href="{{ site.baseurl }}{% post_url 2016-10-25-afterlife %}"><img src="images/afterlife.png"></a>
+  {% include posts.html %}
 </div>
 
 
 <div id="posts">
-  <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
-  
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      {% if forloop.index <= 3 %}
-        <p class="my-item">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-          <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-            {{ post.content | strip_html | truncatewords: 20 }}
-        </p>
-      {% endif %}
-    </li>
-    {% endfor %}
-    <li>
-      <p class="my-item">
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
-        <i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}
-    </li>
-  </ul>
-
-  <div id="tags">
-    <h2 class="my-mini-heading">Tags</h2>
-    {% for tag in tags %}
-      <a href="/tag/{{ tag | slugify }}/index.html"> {{ tag }} </a>
-    {% endfor %}
-  </div>
-
+  {% include year-archive.html %}
   <div>
     <a onclick="GameDevDiary.show_section('cool-stuff');" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
@@ -81,16 +23,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 
 
 <div id="projects">
-  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-  <ul>
-    {% for project in site.data.projects %}
-    <li>
-      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-        {{ project.description }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
+  {% include projects.html %}
   <div>
     <a onclick="GameDevDiary.show_section('cool-stuff');" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
@@ -113,9 +46,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 
 <noscript>
   <div id="posts-noscript">
-
     <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
-
     <ul>
       {% for post in site.posts %}
       <li>

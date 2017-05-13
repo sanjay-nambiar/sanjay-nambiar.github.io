@@ -45,23 +45,13 @@ kramdown:
   syntax_highlighter_opts:
     tab_width: 4
 
-jekyll-archives:
-  enabled:
-    - tags
-  layout: 'tag-list'
-  permalinks:
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
 # third party gems
 gems:
-  - jekyll-archives
   - jekyll-paginate
   - jekyll-gist
   - gemoji
 
 whitelist:
-  - jekyll-archives
   - jekyll-paginate
   - jekyll-gist
   - gemoji

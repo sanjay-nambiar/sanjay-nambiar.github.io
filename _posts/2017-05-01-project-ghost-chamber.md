@@ -4,6 +4,7 @@ title:  "Project Ghost Chamber"
 date:   2017-05-01 09:30:00 -0500
 category: Project
 tags: ['C++', 'C#', 'Kinect', 'Hologram', 'UnrealEngine']
+thumbnail: 'https://c1.staticflickr.com/5/4166/34333290035_59bb29de1f_z.jpg'
 author: "Sanjay Nambiar"
 comments: true
 ---

@@ -4,6 +4,7 @@ title:  "Rapid Prototype: Kicking Plushies"
 date:   2016-12-06 22:00:00 -0500
 category: Project
 tags: ['UnrealEngine', 'C++', 'VR', 'Vive', 'Team']
+thumbnail: 'http://cdn.iwillteachyoutoberich.com/wp-content/uploads/2008/11/generic-candy.jpg'
 author: "Sanjay Nambiar"
 comments: true
 ---

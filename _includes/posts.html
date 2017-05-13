@@ -29,3 +29,11 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<script>
+  $(function(){
+      setInterval(function() {
+        $('.carousel-control.right').trigger('click');
+      }, {{ site.carousal_interval }});
+  });
+</script>

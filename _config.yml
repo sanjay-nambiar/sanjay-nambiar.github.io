@@ -27,6 +27,7 @@ posts_btn: "Posts"
 imprint_btn: "Imprint"
 name_badge: "an article by"
 rss_badge: "Subscribe feed!"
+carousal_interval: 3000
 
 # build settings
 markdown: kramdown

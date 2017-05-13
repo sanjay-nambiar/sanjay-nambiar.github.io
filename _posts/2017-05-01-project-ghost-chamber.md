@@ -4,7 +4,7 @@ title:  "Project Ghost Chamber"
 date:   2017-05-01 09:30:00 -0500
 category: Project
 tags: ['C++', 'C#', 'Kinect', 'Hologram', 'UnrealEngine']
-thumbnail: 'https://c1.staticflickr.com/5/4166/34333290035_59bb29de1f_z.jpg'
+thumbnail: 'images/ghost-chamber.jpg'
 author: "Sanjay Nambiar"
 comments: true
 ---
@@ -12,7 +12,7 @@ comments: true
 ## Project Ghost Chamber
 
 <div class='embed-container'>
-	<img src="https://c1.staticflickr.com/5/4166/34333290035_59bb29de1f_z.jpg" width="560" height="280" alt="THE TEAM!, plus SME, &amp; teacher">
+	<img src="{{ site.baseurl }}/images/ghost-chamber.jpg">
 </div>
 
 This project is one of the most unique projects I worked on while I was at FIEA. This project was done as

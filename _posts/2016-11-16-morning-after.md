@@ -4,7 +4,7 @@ title:  "Rapid Prototype: The Morning After"
 date:   2016-11-16 22:00:00 -0500
 category: Project
 tags: ['Unity3D', 'C#', 'Team']
-thumbnail: 'http://cdn.iwillteachyoutoberich.com/wp-content/uploads/2008/11/generic-candy.jpg'
+thumbnail: 'images/morning-after.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

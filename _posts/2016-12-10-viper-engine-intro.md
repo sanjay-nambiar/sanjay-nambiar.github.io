@@ -4,7 +4,7 @@ title:  "Viper Engine: That game engine I always wanted to build"
 date:   2016-12-10 19:00:00 -0500
 category: Project
 tags: ['C++', 'GameEngine', 'Solo', 'Opengl', 'Fmod', 'Tiled', 'TexturePacker']
-thumbnail: 'http://cdn.iwillteachyoutoberich.com/wp-content/uploads/2008/11/generic-candy.jpg'
+thumbnail: 'images/viper-engine.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

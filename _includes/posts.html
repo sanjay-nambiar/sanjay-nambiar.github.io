@@ -3,7 +3,7 @@
   <ol class="carousel-indicators">
     {% for post in site.posts %}
       <li data-target="#main-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first == true %} class="active"{% endif %}></li>
-      {% if forloop.index == 3 %}
+      {% if forloop.index == 10 %}
         {%break %}
       {%endif %}
     {% endfor %}
@@ -14,7 +14,7 @@
       <div class="item{% if forloop.first == true %} active{% endif %}">
         <a href="{{ site.baseurl}}{{ post.url }}"><img src="{{ post.thumbnail }}" alt="" class="img-responsive"></a>
       </div>
-      {% if forloop.index == 3 %}
+      {% if forloop.index == 10 %}
         {%break %}
       {%endif %}
     {% endfor %}

@@ -4,7 +4,7 @@ title:  "Assembly Game: Apple Archer"
 date:   2016-10-16 11:00:00 -0500
 category: Project
 tags: ['Assembly', '68000', 'Solo']
-thumbnail: 'http://cdn.iwillteachyoutoberich.com/wp-content/uploads/2008/11/generic-candy.jpg'
+thumbnail: 'images/apple-archer.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

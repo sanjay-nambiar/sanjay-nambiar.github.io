@@ -4,7 +4,7 @@ title:  "FIEA Portfolio"
 date:   2016-08-20 11:00:00 -0500
 category: Project
 tags: ['Physics', 'SDL', 'C++', 'Solo']
-thumbnail: 'http://cdn.iwillteachyoutoberich.com/wp-content/uploads/2008/11/generic-candy.jpg'
+thumbnail: 'images/verlet.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

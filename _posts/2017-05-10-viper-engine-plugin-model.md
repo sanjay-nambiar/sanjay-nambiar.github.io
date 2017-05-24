@@ -4,7 +4,7 @@ title:  "Viper Engine: Plugin based subsystems"
 date:   2017-05-10 20:00:00 -0500
 category: Post
 tags: ['C++', 'GameEngine', 'Solo', 'Opengl', 'Dll', 'Plugin']
-showcase: true
+showcase: false
 thumbnail: 'images/viper-engine.png'
 author: "Sanjay Nambiar"
 comments: true

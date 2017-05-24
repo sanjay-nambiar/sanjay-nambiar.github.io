@@ -26,4 +26,4 @@ The main requirements of the portfolio were:
 
 The best option that came to my mind was to implement a simple 2D physics simulation in C++. I have done a simple verlet integration physics implementation in the past using Javscript and HTML5 and that made it an ideal candidate. The recommended reading from FIEA had C++ books focusing on modern C++ and hence I decided to use some C++ 11 features in the code as well. The end result was an interesting 2 weeks of learning and implementaion with a good portfolio project.
 
-The link to source code for this project can be found under Projects section.
+The source code for this project can be found [here](https://github.com/sanjay-nambiar/SDL-verlet-magic).

@@ -22,4 +22,4 @@ pipeline making it difficult to have a lot of moving parts in the game. To overc
 in the world which were mostly colored with one or two colors. This choice let me optimize the sprite drawing by implementing a run length encoder
 and drawing a run of pixels using line drawing API of Easy68K which took almost the same time to draw a line as drawing a single pixel. The game was made in a span of 2 weeks. This was a solo project so I had to get sprites from the internet as well as create some of my own.
 
-The link to source code for this project can be found under Projects section.
+The source code for this project can be found [here](https://github.com/sanjay-nambiar/apple-archer).

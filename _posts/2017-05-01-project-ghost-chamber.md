@@ -34,7 +34,7 @@ model to the Raspberry Pi server. This lets users control the models displayed i
 I was involved in creating design of the C# plugin project and implementation of some kinect commands and gestures. I
 also developed the mobile application in Unreal Engine and learned quite a bit about Unreal's socket classes and how
 it can be used to create client application talking to regular C sockets based servers. The client - server system also
-had an autodiscovery feature within a LAN.
+had an autodiscovery feature within a LAN. The source code for this project is available [here](https://github.com/GhostChamber).
 
 The final presentation of the project can be viewed here:
 <div class='embed-container'>

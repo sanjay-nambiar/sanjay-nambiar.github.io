@@ -4,6 +4,7 @@ title:  "Assembly Game: Apple Archer"
 date:   2016-10-16 11:00:00 -0500
 category: Project
 tags: ['Assembly', '68000', 'Solo']
+showcase: true
 thumbnail: 'images/apple-archer.png'
 author: "Sanjay Nambiar"
 comments: true

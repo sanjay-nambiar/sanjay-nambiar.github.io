@@ -4,6 +4,7 @@ title:  "Rapid Prototype: Afterlife"
 date:   2016-10-25 20:00:00 -0500
 category: Project
 tags: ['Unity3D', 'C#', 'Mobile', 'AR', 'Team', 'Vuforia']
+showcase: true
 thumbnail: 'images/afterlife.png'
 author: "Sanjay Nambiar"
 comments: true

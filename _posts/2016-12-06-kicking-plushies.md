@@ -4,6 +4,7 @@ title:  "Rapid Prototype: Kicking Plushies"
 date:   2016-12-06 22:00:00 -0500
 category: Project
 tags: ['UnrealEngine', 'C++', 'VR', 'Vive', 'Team']
+showcase: true
 thumbnail: 'images/kicking-plushies.png'
 author: "Sanjay Nambiar"
 comments: true

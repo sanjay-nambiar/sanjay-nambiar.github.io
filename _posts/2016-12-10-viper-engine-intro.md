@@ -2,8 +2,9 @@
 layout: post
 title:  "Viper Engine: That game engine I always wanted to build"
 date:   2016-12-10 19:00:00 -0500
-category: Project
+category: Post
 tags: ['C++', 'GameEngine', 'Solo', 'Opengl', 'Fmod', 'Tiled', 'TexturePacker']
+showcase: false
 thumbnail: 'images/viper-engine.png'
 author: "Sanjay Nambiar"
 comments: true
@@ -22,3 +23,4 @@ I wanted to write. Now that my full focus is on game development and have a good
 I am starting a project to create a game engine. This will be an ongoing project where I try new things I learn from
 my course as well as from reading and research. I'm sure it will undergo tonnes of changes over time. For now it's a
 good start. A link to the project's source code is available in the projects section of this website.
+The latest source code can be found in my github [repository](https://github.com/sanjay-nambiar/ViperEngine)

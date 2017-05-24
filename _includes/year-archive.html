@@ -1,5 +1,9 @@
 <div id="year-archive">
 {%for post in site.posts %}
+    {% if post.category != "Post" %}
+        {% continue %}
+    {% endif %}
+
     {% unless post.next %}
         <h2 class="my-mini-heading">{{ post.date | date: '%Y' }}</h2>
         <ul>

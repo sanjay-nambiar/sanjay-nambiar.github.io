@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Volumetric Lighting"
-date:   2017-05-10 20:55:32 -0500
+date:   2017-05-23 16:17:32 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
 showcase: true

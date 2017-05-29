@@ -18,8 +18,9 @@ was unsettling. Fortunately a bit of research led me to the engine Ogre3D's sour
 
 OGRE has a plugin based architecture for its components and hence they had solved the same problem. OGRE's solution is really simple but
 effective. OGRE has a header for defining some platform specific macros and a header for dynamic library loading which defines macros for
-dynamic library loading based on the current platform. It was a very simple approach and I was able to incorporate it easily in a prototypical
-way and test it. The relvant code snippents are given below.
+dynamic library loading based on the current platform. The platforms themselves was detected based on some macros which specific compilers
+define. At this point I have only used MSVC and GCC based macros. It was a very simple approach and I was able to incorporate it easily in
+a prototypical way and test it. The relvant code snippents are given below.
 
 #### Platform.h
 

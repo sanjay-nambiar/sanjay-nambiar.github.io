@@ -4,7 +4,7 @@ title:  "Volumetric Lighting"
 date:   2017-05-23 16:17:32 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
-showcase: true
+showcase: false
 thumbnail: 'images/viper-engine.png'
 author: "Sanjay Nambiar"
 comments: true

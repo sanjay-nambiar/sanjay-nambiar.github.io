@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Volumetric Lighting - Update1"
-date:   2017-05-23 16:17:32 -0500
+date:   2017-05-30 16:17:32 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
-showcase: true
+showcase: false
 thumbnail: 'images/viper-engine.png'
 author: "Sanjay Nambiar"
 comments: true

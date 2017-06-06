@@ -45,7 +45,8 @@ To simplify this algorithm, we ignore multiple scattering.
 #### Beer Lambert's Law
 
 Beer Lambert's Law defines the amount of light scattered.
-B𝑒 is extinction coefficient, defined as sum of scattering and absorption coefficients. This shows that light extinction is exponential function of
+<br/><img src='/images/BeerLamberts.png'><br/>
+𝛽𝑒 is extinction coefficient, defined as sum of scattering and absorption coefficients. This shows that light extinction is exponential function of
 travelled distance by light in given medium.
 
 [Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)

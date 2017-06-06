@@ -5,7 +5,7 @@ date:   2017-05-10 20:00:00 -0500
 category: Project
 tags: ['C++', 'GameEngine', 'Solo', 'Opengl', 'Dll', 'Plugin']
 showcase: true
-thumbnail: 'images/viper-shader.gif'
+thumbnail: 'images/viper-engine.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

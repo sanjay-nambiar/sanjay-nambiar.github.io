@@ -5,7 +5,7 @@ date:   2017-05-30 16:17:32 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
 showcase: false
-thumbnail: 'images/viper-engine.png'
+thumbnail: 'images/spinning-cubes.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

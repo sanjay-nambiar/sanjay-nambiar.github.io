@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Volumetric Lighting"
+title:  "Volumetric Lighting - Project KickStart"
 date:   2017-05-23 16:17:32 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']

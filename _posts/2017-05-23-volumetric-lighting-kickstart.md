@@ -21,4 +21,4 @@ References:
 4. Volumetric light scattering - [GPU Gems 3](https://goo.gl/JLCtOh)
 5. Volumetric Fog: Unified compute shader based solution to atmospheric scattering - [SIGGRAPH 2014](https://goo.gl/3NV0Vz)
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/ViperEngine/tree/master/source/Plugins/Renderer/OpenGL)

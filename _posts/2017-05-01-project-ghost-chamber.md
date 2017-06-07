@@ -15,14 +15,17 @@ comments: true
 <div class='embed-container'>
 	<img src="{{ site.baseurl }}/images/ghost-chamber.jpg">
 </div>
+<br/>
 
+#### Introduction
 This project is one of the most unique projects I worked on while I was at FIEA. This project was done as
 part of a course at FIEA which focuses on Games / interactive simulations outside of entertainment realm.
 The course had a lot of interesting educational games from different teams. Project Ghost Chamber was done
-by a team of 5, 3 programmers, 1 producer and an artist. We started the project as an interactive hologram
-plugin for the AutoCAD software. We used Kinect libraries in C# .NET to write plugins for AutoCAD which lets
-users move, rotate and zoom the autocad workspace using hand gestures.
+by a team of 5, 3 programmers, 1 producer and an artist.
 
+#### Features
+We started the project as an interactive hologram plugin for the AutoCAD software. We used Kinect libraries in
+C# .NET to write plugins for AutoCAD which lets users move, rotate and zoom the autocad workspace using hand gestures.
 As a next step, the autocad models were streamed via a desktop capture software written in C++. The streamer
 software modified the image and duplicated it into 4 sections, so that we can use a pyramid glass chamber which
 produced holograms of the model in AutoCAD. As a final step we built another chamber which was more compact
@@ -31,6 +34,7 @@ display unit. The software running in Raspberry Pi is a simple OpenGL renderer a
 built using Unreal Engine, loaded the same models as the Raspberry Pi and communicated transform data of the active
 model to the Raspberry Pi server. This lets users control the models displayed in the chamber via the phone app.
 
+#### Technology and my contribution
 I was involved in creating design of the C# plugin project and implementation of some kinect commands and gestures. I
 also developed the mobile application in Unreal Engine and learned quite a bit about Unreal's socket classes and how
 it can be used to create client application talking to regular C sockets based servers. The client - server system also

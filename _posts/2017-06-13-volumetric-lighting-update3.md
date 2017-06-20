@@ -4,7 +4,7 @@ title:  "Volumetric Lighting - Update3"
 date:   2017-06-13 12:00:00 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
-showcase: true
+showcase: false
 thumbnail: 'images/directional-light.png'
 author: "Sanjay Nambiar"
 comments: true

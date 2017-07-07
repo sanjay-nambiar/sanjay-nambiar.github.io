@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Volumetric Lighting - Update46"
+title:  "Volumetric Lighting - Update6"
 date:   2017-07-07 08:00:00 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']

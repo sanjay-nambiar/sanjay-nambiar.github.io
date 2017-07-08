@@ -13,7 +13,7 @@ comments: true
 ## Afterlife
 
 <div class='embed-container'>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/k0fowuO1mjY" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/gA7iiJ4ee-c" frameborder="0" allowfullscreen></iframe>
 </div>
 <br/>
 

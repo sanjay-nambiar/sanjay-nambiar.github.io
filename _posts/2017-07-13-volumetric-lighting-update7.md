@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Volumetric Lighting - Update7"
-date:   2017-07-07 08:00:00 -0500
+date:   2017-07-13 08:00:00 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
-showcase: true
+showcase: false
 thumbnail: 'images/light-volume-tessellated.png'
 author: "Sanjay Nambiar"
 comments: true

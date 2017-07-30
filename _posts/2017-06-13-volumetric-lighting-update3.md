@@ -28,4 +28,4 @@ This method achieves volumetric lighting using the following steps:
     3. Draw the scene render target
     4. Blend the occlusion map and scene render and display it on the screen
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/RenderingDemos/tree/master/source/Demos/OpenGL/VolumetricLighting)

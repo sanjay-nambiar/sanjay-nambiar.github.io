@@ -41,4 +41,4 @@ Here is the result of the above steps performed on single light
 <br/>
 From here for next week, I have to do the integration of light intensity at each point in the inside of that volume and generate light rays into a separate texture.
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/RenderingDemos/tree/master/source/Demos/OpenGL/VolumetricLighting)

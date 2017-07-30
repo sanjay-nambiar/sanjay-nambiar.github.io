@@ -72,4 +72,4 @@ glBindVertexArray(VAO);
 
 7. From the single cube, by using multiple transformation matrices, I was able to setup n number of cubes all at random locations spinning at the same time.
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/RenderingDemos/tree/master/source/Demos/OpenGL/VolumetricLighting)

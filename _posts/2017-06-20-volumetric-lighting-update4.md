@@ -34,4 +34,4 @@ absorption factor are all used while rendering the lights. This image is rendere
 
 Finally this offscreen buffer is additively blended onto regularly rendererd frame and displayed to the screen.
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/RenderingDemos/tree/master/source/Demos/OpenGL/VolumetricLighting)

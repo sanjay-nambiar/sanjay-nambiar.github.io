@@ -24,4 +24,4 @@ plane and far plane of the light. The work is still in progress to render this v
 Other than the above mentioned tasks, I also spent considerable time in trying to setup a scene were all these can be visualized better. I integrated an offline
 model processor which was available in a direct X rendering project into this and tested it with differnt models.
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/RenderingDemos/tree/master/source/Demos/OpenGL/VolumetricLighting)

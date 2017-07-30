@@ -18,4 +18,4 @@ comments: true
 3. Bloom postprocess
 4. Simple Shadow map generation
 
-[Source Code](https://github.com/sanjay-nambiar/VolumetricLighting)
+[Source Code](https://github.com/sanjay-nambiar/RenderingDemos/tree/master/source/Demos/OpenGL/VolumetricLighting)

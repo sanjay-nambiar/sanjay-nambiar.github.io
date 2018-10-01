@@ -302,3 +302,8 @@ img{
 .carousel {
   height: auto !important;
 }
+
+.about-text {
+    text-align: left;
+}
+

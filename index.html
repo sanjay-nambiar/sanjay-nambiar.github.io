@@ -13,15 +13,6 @@ layout: default
   {% include showcase.html %}
 </div>
 
-
-<div id="posts">
-  {% include year-archive.html %}
-  <div>
-    <a onclick="GameDevDiary.show_section('cool-stuff');" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
-</div>
-
-
 <div id="projects">
   {% include projects.html %}
   <div>
@@ -29,6 +20,13 @@ layout: default
   </div>
 </div>
 
+<div id="posts">
+  {% include year-archive.html %}
+  <div>
+    <a onclick="GameDevDiary.show_section('cool-stuff');" class="waves-effect waves-teal btn-flat btn-large">{{
+      site.close_btn }}</a>
+  </div>
+</div>
 
 <div id="about" style="display: none">
   <h2 class="my-mini-heading">{{ site.about_btn }}</h2>

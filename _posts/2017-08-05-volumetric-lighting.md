@@ -17,7 +17,6 @@ comments: true
 </div>
 <br/>
 
-#### Introduction
 This project is a simple implementation of volumetric lights using a [technique](https://developer.nvidia.com/VolumetricLighting) presented by NVidia in GDC 2016. The project is written in C++ and uses OpenGL for rendering.
 
 The code can be viewed [here](https://github.com/sanjay-nambiar/RenderingDemos).

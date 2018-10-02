@@ -5,7 +5,7 @@ date:   2017-08-05 20:00:00 -0500
 category: Project
 tags: ['C++', 'OpenGL', 'Graphics', 'Volumetric']
 showcase: true
-thumbnail: 'images/sponza.jpg'
+thumbnail: 'images/god-rays.png'
 author: "Sanjay Nambiar"
 comments: true
 ---

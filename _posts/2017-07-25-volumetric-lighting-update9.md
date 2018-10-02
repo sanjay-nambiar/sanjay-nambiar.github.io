@@ -4,8 +4,8 @@ title:  "Volumetric Lighting - Final Update"
 date:   2017-07-25 23:30:00 -0500
 category: Post
 tags: ['C++', 'OpenGL', 'Rendering', 'Volumetric', 'Lighting']
-showcase: true
-thumbnail: 'images/sponza.jpg'
+showcase: false
+thumbnail: 'images/god-rays.png'
 author: "Sanjay Nambiar"
 comments: true
 ---
